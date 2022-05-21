@@ -1,0 +1,32 @@
+{
+  "name": "blue-backend-c012-modulo04-exercicios",
+  "version": "1.0.0",
+  "description": "Repositório de Exercícios BackEnd desenvolvidos durante realização do Módulo 04 - BlueEdtech.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index",
+    "start": "node dist/index.js",
+    "build": "npx tsc",
+    "build-and-run": "npm run build && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandreSilvestre21/Blue-BackEnd-C012-Modulo04-Exercicios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandreSilvestre21/Blue-BackEnd-C012-Modulo04-Exercicios/issues"
+  },
+  "homepage": "https://github.com/AlexandreSilvestre21/Blue-BackEnd-C012-Modulo04-Exercicios#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "swagger-ui-express": "^4.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
